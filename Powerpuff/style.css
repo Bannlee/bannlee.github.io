@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        darkgrey 0%,
+        darkgrey 15%,
+        rgb(10, 10, 10) 15%,
+        black 100%,
+        black 100%
+    );
+    height: 100vh;
+}
+h1 {
+    font-family:Georgia, serif;
+    color: white ;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 35%;
+  }
+
+  button {
+    background-color:transparent;
+    border: 2px 2px 2px;
+    border-color: transparent;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+    font-family: Georgia, serif;
+    color: #ddd;
+    cursor: pointer;
+
+}
+
+.red:hover {
+    background-color: rgb(202, 24, 24);
+    color: #ddd;
+    
+
+}
+
+.white:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.yellow:hover {
+    background-color: rgb(231, 182, 22);
+    color: #ddd;
+}
+
+.pink:hover {
+    background-color: pink;
+    color: #ddd;
+}
+
+.purple:hover {
+    background-color: rgb(160, 37, 231);
+    color: #ddd;
+}
+
+.green:hover {
+    background-color: rgb(28, 148, 28);
+    color: #ddd;
+}
+.buttons {
+    margin-left: 35%;
+
+}
+
+img { 
+    width: 1000px;
+    height: 400px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+}
+
+h2 {
+    font-family:Georgia, serif;
+    color: white ;
+    font-size: 30px;
+    margin-left: 25%;
+  }
